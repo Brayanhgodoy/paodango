@@ -1,7 +1,7 @@
 <?php
 require_once '../db.php';
 
-// Processa o formulário de cadastro
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nome = $_POST['nome'] ?? '';
     $categoria_id = $_POST['categoria_id'] ?? null;
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-// Busca categorias para o select
+
 $categorias = $pdo->query('SELECT id, nome FROM categorias')->fetchAll();
 ?>
 <!DOCTYPE html>

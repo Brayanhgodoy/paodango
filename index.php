@@ -11,7 +11,7 @@
     <nav>
         <a href="produtos/create.php"><button>Produtos</button></a>
         <a href="categorias/create.php"><button>Categorias</button></a>
-        <!-- Adicione Clientes e Pedidos se desejar -->
+        
     </nav>
     <p>Bem-vindo ao sistema da padaria. Escolha um módulo acima.</p>
 </div>
